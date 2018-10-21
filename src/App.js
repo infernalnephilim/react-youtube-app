@@ -6,8 +6,9 @@ import VideoPlayer from "./components/VideoPlayer";
 import VideoList from "./components/VideoList";
 import SearchBar from "./components/SearchBar";
 
-const API_KEY = "AIzaSyDWktnfDR257HdTiTAO1ruSdez1gt5TYHE";
+const API_KEY = "";
 const maxResults = 10;
+let admins = require('~/app/admins.json');
 
 class App extends Component {
     constructor(props) {
