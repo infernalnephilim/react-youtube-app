@@ -1,14 +1,14 @@
 {
   "main.css": "/react-youtube-app/static/css/main.19426fe5.chunk.css",
-  "main.js": "/react-youtube-app/static/js/main.05f1bbb5.chunk.js",
-  "main.js.map": "/react-youtube-app/static/js/main.05f1bbb5.chunk.js.map",
-  "static/js/1.74256310.chunk.js": "/react-youtube-app/static/js/1.74256310.chunk.js",
-  "static/js/1.74256310.chunk.js.map": "/react-youtube-app/static/js/1.74256310.chunk.js.map",
+  "main.js": "/react-youtube-app/static/js/main.f8d98fb5.chunk.js",
+  "main.js.map": "/react-youtube-app/static/js/main.f8d98fb5.chunk.js.map",
+  "static/js/1.7cae3d32.chunk.js": "/react-youtube-app/static/js/1.7cae3d32.chunk.js",
+  "static/js/1.7cae3d32.chunk.js.map": "/react-youtube-app/static/js/1.7cae3d32.chunk.js.map",
   "runtime~main.js": "/react-youtube-app/static/js/runtime~main.1b42a297.js",
   "runtime~main.js.map": "/react-youtube-app/static/js/runtime~main.1b42a297.js.map",
   "static/media/logo.svg": "/react-youtube-app/static/media/logo.5d5d9eef.svg",
   "static/css/main.19426fe5.chunk.css.map": "/react-youtube-app/static/css/main.19426fe5.chunk.css.map",
   "index.html": "/react-youtube-app/index.html",
-  "precache-manifest.5ff69ffbe5dc472baa6ceec2ba2d1272.js": "/react-youtube-app/precache-manifest.5ff69ffbe5dc472baa6ceec2ba2d1272.js",
+  "precache-manifest.929157d9a27887bb32925771caf7345c.js": "/react-youtube-app/precache-manifest.929157d9a27887bb32925771caf7345c.js",
   "service-worker.js": "/react-youtube-app/service-worker.js"
 }

@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/react-youtube-app/static/js/runtime~main.1b42a297.js"
   },
   {
-    "revision": "05f1bbb5459e3f26910a",
-    "url": "/react-youtube-app/static/js/main.05f1bbb5.chunk.js"
+    "revision": "f8d98fb5b94d69b6c60c",
+    "url": "/react-youtube-app/static/js/main.f8d98fb5.chunk.js"
   },
   {
-    "revision": "74256310fb7041ab29b7",
-    "url": "/react-youtube-app/static/js/1.74256310.chunk.js"
+    "revision": "7cae3d32f9e67ef733e4",
+    "url": "/react-youtube-app/static/js/1.7cae3d32.chunk.js"
   },
   {
-    "revision": "05f1bbb5459e3f26910a",
+    "revision": "f8d98fb5b94d69b6c60c",
     "url": "/react-youtube-app/static/css/main.19426fe5.chunk.css"
   },
   {
-    "revision": "30dd617eae642803efb6ec6e1726834e",
+    "revision": "1f2a05b4f61422e37cf71a0ba8fa2402",
     "url": "/react-youtube-app/index.html"
   }
 ];
