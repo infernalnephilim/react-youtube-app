@@ -12,7 +12,7 @@ class VideoPlayer extends Component {
             );
         }
         const videoID = this.props.selectedVideo.id.videoId;
-        const videoURL = `https://youtube.com/embed/${videoID}`;
+        const videoURL = `https://youtube.com/embed/${videoID}?autoplay=1`;
         return (
             <section className="YoutubeApp__video-player">
                 <iframe src={videoURL}></iframe>
