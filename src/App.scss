@@ -1,0 +1,101 @@
+$section-padding: 10px;
+
+@mixin box-shadow($hoff, $voff, $blur, $color) {
+  -webkit-box-shadow: $hoff $voff $blur $color;
+  -moz-box-shadow: $hoff $voff $blur $color;
+  box-shadow: $hoff $voff $blur $color;
+}
+
+.YoutubeApp {
+  display: flex;
+  flex-direction: column;
+  & > div {
+    padding: $section-padding;
+  }
+  &__header {
+    background: #FF0000;
+    color: #fff;
+    padding: $section-padding;
+    display: flex;
+    justify-content: center;
+  }
+  &__search {
+    form {
+      display: flex;
+      input {
+        flex: 2;
+      }
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 950px) {
+      flex-direction: row;
+    }
+  }
+  &__video-player {
+    flex: 2;
+    iframe {
+      width: 100%;
+      min-height: 600px;
+      border: 2px solid #eee;
+      @include box-shadow(1px, 1px, 1px, #a7a7a7);
+
+      @media screen and (min-width: 950px) {
+        min-height: 800px;
+
+      }
+
+    }
+  }
+  &__video-list {
+    flex: 1;
+  }
+  &__video-item {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    @include box-shadow(1px, 1px, 1px, #a7a7a7);
+    &:hover {
+      cursor: pointer;
+    }
+    img {
+      max-width: 100%;
+    }
+    .current-playing {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      z-index: 10;
+      padding: 5px;
+      color: #fff;
+      background: red;
+    }
+  }
+  &__video-details {
+    flex: 1;
+    min-width: 50%;
+    padding: 10px 20px;
+    @media screen and (min-width: 950px) {
+
+    }
+    p {
+      text-align: right;
+    }
+  }
+}
+
+.video-details {
+  &__account {
+    color: #a7a7a7;
+  }
+}
+
+.videoActive {
+  background: #eee;
+}
