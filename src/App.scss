@@ -5,6 +5,9 @@ $section-padding: 10px;
   -moz-box-shadow: $hoff $voff $blur $color;
   box-shadow: $hoff $voff $blur $color;
 }
+@mixin text-shadow($hoff, $voff, $blur, $color) {
+  text-shadow: $hoff $voff $blur $color;
+}
 
 .YoutubeApp {
   display: flex;
@@ -18,6 +21,7 @@ $section-padding: 10px;
     padding: $section-padding;
     display: flex;
     justify-content: center;
+    @include text-shadow(1px, 1px, 1px, #a7a7a7);
   }
   &__search {
     form {
@@ -47,6 +51,10 @@ $section-padding: 10px;
         min-height: 800px;
 
       }
+
+    }
+    @media screen and (min-width: 950px) {
+      margin-right: 20px;
 
     }
   }

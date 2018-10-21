@@ -8,7 +8,8 @@
     color: #fff;
     padding: 10px;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    text-shadow: 1px 1px 1px #a7a7a7; }
   .YoutubeApp__search form {
     display: flex; }
     .YoutubeApp__search form input {
@@ -31,6 +32,9 @@
       @media screen and (min-width: 950px) {
         .YoutubeApp__video-player iframe {
           min-height: 800px; } }
+    @media screen and (min-width: 950px) {
+      .YoutubeApp__video-player {
+        margin-right: 20px; } }
   .YoutubeApp__video-list {
     flex: 1; }
   .YoutubeApp__video-item {
