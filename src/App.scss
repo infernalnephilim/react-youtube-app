@@ -43,12 +43,13 @@ $section-padding: 10px;
     flex: 2;
     iframe {
       width: 100%;
-      min-height: 600px;
+      height: 600px;
       border: 2px solid #eee;
+      max-height: 90vh;
       @include box-shadow(1px, 1px, 1px, #a7a7a7);
 
       @media screen and (min-width: 950px) {
-        min-height: 800px;
+        height: 800px;
 
       }
 

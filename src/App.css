@@ -24,14 +24,15 @@
     flex: 2; }
     .YoutubeApp__video-player iframe {
       width: 100%;
-      min-height: 600px;
+      height: 600px;
       border: 2px solid #eee;
+      max-height: 90vh;
       -webkit-box-shadow: 1px 1px 1px #a7a7a7;
       -moz-box-shadow: 1px 1px 1px #a7a7a7;
       box-shadow: 1px 1px 1px #a7a7a7; }
       @media screen and (min-width: 950px) {
         .YoutubeApp__video-player iframe {
-          min-height: 800px; } }
+          height: 800px; } }
     @media screen and (min-width: 950px) {
       .YoutubeApp__video-player {
         margin-right: 20px; } }
