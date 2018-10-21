@@ -8,7 +8,6 @@ import SearchBar from "./components/SearchBar";
 
 const API_KEY = "";
 const maxResults = 10;
-let admins = require('~/app/admins.json');
 
 class App extends Component {
     constructor(props) {
